@@ -5,8 +5,19 @@
 /* Font variables */
 :root {
   --font-poppins: "Poppins", sans-serif;
+  --foreground-rgb: 255, 255, 255;
+  --background-start-rgb: 0, 0, 0;
+  --background-end-rgb: 0, 0, 0;
 }
 
 body {
   font-family: var(--font-poppins);
+  color: rgb(var(--foreground-rgb));
+  background: rgb(var(--background-start-rgb));
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }

@@ -36,6 +36,15 @@ const Header = () => {
           </span>
         </Link>
       </nav>
+      <div className="absolute bottom-0 left-0 w-full">
+        <Image
+          src="/assets/images/HeroEdge.png"
+          alt="Hero Edge"
+          width={1440}
+          height={9}
+          className="w-full object-cover"
+        />
+      </div>
     </header>
   );
 };
