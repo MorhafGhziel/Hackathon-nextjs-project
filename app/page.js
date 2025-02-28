@@ -1,6 +1,7 @@
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import LogoTicker from "@/components/LogoTicker";
+import StatsSection from "@/components/StatsSection";
 
 const page = () => {
   return (
@@ -8,6 +9,7 @@ const page = () => {
       <Header />
       <Hero />
       <LogoTicker />
+      <StatsSection />
     </>
   );
 };
