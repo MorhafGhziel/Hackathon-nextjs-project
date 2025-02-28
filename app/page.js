@@ -3,7 +3,7 @@ import Hero from "@/components/Hero";
 import LogoTicker from "@/components/LogoTicker";
 import StatsSection from "@/components/StatsSection";
 import CompanyTicker from "@/components/CompanyTicker";
-
+import Footer from "@/components/Footer";
 const page = () => {
   return (
     <>
@@ -12,6 +12,7 @@ const page = () => {
       <LogoTicker />
       <StatsSection />
       <CompanyTicker />
+      <Footer />
     </>
   );
 };
